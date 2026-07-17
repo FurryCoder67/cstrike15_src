@@ -2165,7 +2165,7 @@ void CClientState::ConsistencyCheck(bool bChanged )
 		userData = (unsigned char *)m_pDownloadableFileTable->GetStringUserData( i, &length );
 		const char *filename = m_pDownloadableFileTable->GetString( i );
 
-		// [FTrepte] Ignore the CRC check for Counter-Strike 15.
+		// [FTrepte] Ignore the CRC check for Rift.
 		// $FIXME: Is this the right thing to do or should we fix endianness and content issues
 		// that may be causing this not to match between the PC server and Xbox client?
 

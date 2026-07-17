@@ -221,7 +221,7 @@ void CAudioDeviceSDLAudio::OpenWaveOut( void )
 
 #ifndef WIN32
 	// Set these environment variables, in case we're using PulseAudio.
-	const char *appname = "Counter-Strike: Global Offensive";  // !!! FIXME: get this from elsewhere.
+	const char *appname = "Rift";  // !!! FIXME: get this from elsewhere.
 	setenv("PULSE_PROP_application.name", appname, 1);
 	setenv("PULSE_PROP_media.role", "game", 1);
 #endif

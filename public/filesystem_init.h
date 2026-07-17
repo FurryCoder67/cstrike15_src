@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -72,7 +72,7 @@ public:
 	// 1. It will set the environment variables that steam.dll looks at for startup info.
 	// 2. It will look for ToolsAppId in the gameinfo.txt file and load the
 	// steam caches associated with that cache if it's there. This is so apps like Hammer and hlmv
-	// can load the main steam caches (like for Counter-Strike or Half-Life 2), and also load the
+	// can load the main steam caches (like for Rift or Half-Life 2), and also load the
 	// caches that include tools-specific materials (materials\editor, materials\debug, etc).
 	//
 	// (default: true - should be FALSE for the engine)

@@ -76,7 +76,7 @@ $Project $SPROJ
 			$File	"$SRCDIR/game/shared/cstrike15/cs_econ_item_string_table.h"
 		}
 
-		$Folder	"CounterStrike DLL"
+		$Folder	"Rift DLL"
 		{
 			$File	"$SRCDIR\game\shared\cstrike15\cs_achievement_constants.h"
 			$File	"$SRCDIR\game\shared\cstrike15\achievements_cs.cpp"

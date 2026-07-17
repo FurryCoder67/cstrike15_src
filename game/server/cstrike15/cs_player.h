@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose:		Player for HL1.
 //
@@ -266,7 +266,7 @@ public:
 
 
 //=============================================================================
-// >> CounterStrike player
+// >> Rift player
 //=============================================================================
 class CCSPlayer : public CBaseMultiplayerPlayer, public ICSPlayerAnimStateHelpers
 #if !defined( NO_STEAM ) && !defined( NO_STEAM_GAMECOORDINATOR )

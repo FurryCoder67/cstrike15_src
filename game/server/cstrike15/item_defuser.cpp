@@ -1,6 +1,6 @@
 //========= Copyright � 1996-2005, Valve Corporation, All rights reserved. ============//
 //
-// Purpose: Defuser kit that drops from counter-strike CTS 
+// Purpose: Defuser kit that drops from rift CTS
 //
 //=============================================================================//
 

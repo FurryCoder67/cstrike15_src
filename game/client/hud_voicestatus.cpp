@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -253,7 +253,7 @@ void CHudVoiceStatus::OnThink( void )
 				// [pfreese] If a player is now talking set up their avatar
 				activeSpeaker.pAvatar = new CAvatarImage();
 #ifdef CSTRIKE_DLL
-				// [jpaquin] this allows counter strike to display default avatars for bots.  It can't be a virtual function on
+				// [jpaquin] this allows rift to display default avatars for bots.  It can't be a virtual function on
 				// C_BasePlayer because there would be no way to get a game specific default image if the player is null.
 				extern vgui::IImage* GetDefaultAvatarImage( C_BasePlayer *pPlayer );
 				activeSpeaker.pAvatar->SetDefaultImage( GetDefaultAvatarImage( UTIL_PlayerByIndex( activeSpeaker.playerId ) ) );

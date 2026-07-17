@@ -135,7 +135,7 @@ $Project "Client (CSGO)"
 			$File	"$SRCDIR/game/shared/econ/econ_game_account_client.cpp"
 		}
 
-		$Folder	"CounterStrike DLL"
+		$Folder	"Rift DLL"
 		{
 			$File	"$SRCDIR\game\shared\cstrike15\cs_achievement_constants.h"
 			$File	"$SRCDIR\game\shared\cstrike15\cs_achievementdefs.h"

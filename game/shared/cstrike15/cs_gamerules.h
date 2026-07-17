@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: The TF Game rules object
 //
@@ -891,7 +891,7 @@ public:
 
 	virtual void			InitDefaultAIRelationships( void );
 
-	virtual const char *GetGameDescription( void ) { return "Counter-Strike: Global Offensive"; }  // this is the game name that gets seen in the server browser
+	virtual const char *GetGameDescription( void ) { return "Rift"; }  // this is the game name that gets seen in the server browser
 	virtual const char *AIClassText(int classType);
 
 	virtual bool FShouldSwitchWeapon( CBasePlayer *pPlayer, CBaseCombatWeapon *pWeapon );

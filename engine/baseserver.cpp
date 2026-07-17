@@ -1244,10 +1244,10 @@ bool CBaseServer::ProcessConnectionlessPacket(netpacket_t * packet)
 						  buf.PutUnsignedChar( S2A_INFO_SRC );
 						  buf.PutUnsignedChar( 17 ); // Hardcoded protocol version number
 						  extern ConVar host_name_store;
-						  buf.PutString( host_name_store.GetBool() ? GetName() : "Counter-Strike: Global Offensive" );
+						  buf.PutString( host_name_store.GetBool() ? GetName() : "Rift" );
 						  buf.PutString( GetMapName() );
 						  buf.PutString( "csgo" );
-						  buf.PutString( "Counter-Strike: Global Offensive" );
+						  buf.PutString( "Rift" );
 
 						  // The next field is a 16-bit version of the AppID.  If our AppID < 65536,
 						  // then let's go ahead and put in in there, to maximize compatibility
@@ -1322,7 +1322,7 @@ bool CBaseServer::ProcessConnectionlessPacket(netpacket_t * packet)
 						  if ( nNewFlags & S2A_EXTRA_DATA_HAS_SPECTATOR_DATA )
 						  {
 							  buf.PutShort( LittleWord( hltv->GetUDPPort() ) );
-							  buf.PutString( host_name_store.GetBool() ? GetName() : "Counter-Strike: Global Offensive" );
+							  buf.PutString( host_name_store.GetBool() ? GetName() : "Rift" );
 						  }
 
 						  if ( nNewFlags & S2A_EXTRA_DATA_HAS_GAMETAG_DATA )
@@ -1597,7 +1597,7 @@ void CBaseServer::FillServerInfo(CSVCMsg_ServerInfo &serverinfo)
 	serverinfo.set_map_group_name( GetMapGroupName() );
 	serverinfo.set_sky_name( m_szSkyname );
 	extern ConVar host_name_store;
-	serverinfo.set_host_name( host_name_store.GetBool() ? GetName() : "Counter-Strike: Global Offensive" );
+	serverinfo.set_host_name( host_name_store.GetBool() ? GetName() : "Rift" );
 	serverinfo.set_is_hltv( IsHLTV() );
 	serverinfo.set_is_redirecting_to_proxy_relay( false );
 	

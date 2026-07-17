@@ -36,7 +36,7 @@ $Project "Client (CStrike)"
 		$File	"$SRCDIR\game\shared\predicted_viewmodel.cpp"
 		$File	"$SRCDIR\game\shared\predicted_viewmodel.h"
 
-		$Folder	"CounterStrike DLL"
+		$Folder	"Rift DLL"
 		{
 			$File	"$SRCDIR\game\shared\cstrike\cs_achievement_constants.h"
 			$File	"$SRCDIR\game\shared\cstrike\cs_achievementdefs.h"

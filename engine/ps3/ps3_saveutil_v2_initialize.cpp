@@ -1,4 +1,4 @@
-//===== Copyright © 1996-2011, Valve Corporation, All rights reserved. ======//
+//===== Copyright ï¿½ 1996-2011, Valve Corporation, All rights reserved. ======//
 
 #include "ps3_saveutil_v2.h"
 #include "vgui/ILocalize.h"
@@ -325,7 +325,7 @@ void CSaveUtilV2Job_Initialize::DoDataStat_NewContainer( SONY_SAVEUTIL_STAT_PARA
 	}
 	else // failsafe
 	{
-		V_strncpy( set->setParam->subTitle, "Counter Strike: Global Offensive" , CELL_SAVEDATA_SYSP_SUBTITLE_SIZE );
+		V_strncpy( set->setParam->subTitle, "Rift" , CELL_SAVEDATA_SYSP_SUBTITLE_SIZE );
 	}
 
 	// the save game caption -- if missing, we just use an empty string here.

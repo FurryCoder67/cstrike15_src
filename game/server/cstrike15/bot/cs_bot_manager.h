@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -117,7 +117,7 @@ public:
 
 //--------------------------------------------------------------------------------------------------------------
 //
-// The manager for Counter-Strike specific bots
+// The manager for Rift specific bots
 //
 class CCSBotManager : public CBotManager
 {

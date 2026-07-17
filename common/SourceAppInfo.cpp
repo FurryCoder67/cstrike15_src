@@ -1,4 +1,4 @@
-//====== Copyright © 1996-2004, Valve Corporation, All rights reserved. =======
+//====== Copyright ï¿½ 1996-2004, Valve Corporation, All rights reserved. =======
 //
 // Purpose: languages definition
 //
@@ -39,8 +39,8 @@ static SourceAppInfo_t s_SteamAppInfo[] =
 	{	"Left 4 Dead",						"left4dead",	500,	k_App_L4D } ,
 #endif
 	{	"Portal 2",							"portal2",		620,	k_App_PORTAL2 } ,
-	{	"Counter-Strike: Global Offensive Dev",	"csgo",		710,	k_App_CSS15_DEV } ,
-	{	"Counter-Strike: Global Offensive",	"csgo",			730,	k_App_CSS15 } ,
+	{	"Rift Dev",	"csgo",		710,	k_App_CSS15_DEV } ,
+	{	"Rift",	"csgo",			730,	k_App_CSS15 } ,
 };
 
 

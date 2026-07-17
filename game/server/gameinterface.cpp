@@ -2923,7 +2923,7 @@ void CServerGameEnts::CheckTransmit( CCheckTransmitInfo *pInfo, const unsigned s
 		CBasePlayer *pPlayer = dynamic_cast< CBasePlayer* >( pEnt );
 
 #if defined( CSTRIKE15 )
-		// Team Lead in gungame should be always visible in counter-strike. Yes, even if he's out of PVS. Yes, even if he's behind the wall.
+		// Team Lead in gungame should be always visible in rift. Yes, even if he's out of PVS. Yes, even if he's behind the wall.
 		if ( pPlayer && static_cast< CCSPlayer* >( pPlayer )->m_isCurrentGunGameTeamLeader )
 		{ // do not check PVS or occlusion for a gun game team leader
 			pEnt->SetTransmit( pInfo, false );

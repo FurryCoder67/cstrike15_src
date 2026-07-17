@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -457,7 +457,7 @@ private:
 //--------------------------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------
 /**
- * The Counter-strike Bot
+ * The Rift Bot
  */
 class CCSBot : public CBot< CCSPlayer >
 {
@@ -878,7 +878,7 @@ public:
 	bool IsAvoidingGrenade( void ) const;							///< return true if we are in the act of avoiding a grenade
 	bool DoesActiveWeaponHaveRemoveableSilencer( void ) const;		///< returns true if we are using a weapon with a removable silencer
 	bool CanActiveWeaponFire( void ) const;							///< returns true if our current weapon can attack
-	CWeaponCSBase *GetActiveCSWeapon( void ) const;					///< get our current Counter-Strike weapon
+	CWeaponCSBase *GetActiveCSWeapon( void ) const;					///< get our current Rift weapon
 
 	void GiveWeapon( const char *weaponAlias );						///< Debug command to give a named weapon
 

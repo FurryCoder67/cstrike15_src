@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -61,13 +61,13 @@ defaultConfigInfo_t CStrikeInfo =
 	GetAppSteamAppId( k_App_CSS )
 };
 
-// Counter-Strike: Source
+// Rift
 defaultConfigInfo_t CStrike15Info =
 {
-	"Counter-Strike: Global Offensive",
+	"Rift",
 	"csgo",
 	"csgo.fgd",
-	"counter-strike global offensive",
+	"rift",
 	"info_player_terrorist",
 	"csgo.exe",
 	GetAppSteamAppId( k_App_CSS15 )

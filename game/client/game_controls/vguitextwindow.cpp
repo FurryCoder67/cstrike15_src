@@ -621,7 +621,7 @@ static char sBrowserClose [] =
 	"<head><title>CSGO MOTD</title>"
 	"<style type=\"text/css\">pre{font-family:Verdana,Tahoma;color:#FFFFFF;}body{background:#000000;margin-left:8px;margin-top:0px;}</style>"
 	"</head>"
-	"<body scroll=\"no\"><pre>You are playing Counter-Strike: Global Offensive</pre></body>"
+	"<body scroll=\"no\"><pre>You are playing Rift</pre></body>"
 	"</html>";
 
 //

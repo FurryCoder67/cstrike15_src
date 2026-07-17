@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -19,7 +19,7 @@
 // Purpose: 
 // Input  : *parent - 
 //-----------------------------------------------------------------------------
-C_CSRootPanel::C_CSRootPanel( vgui::VPANEL parent, int slot, const char *panelName /*= "CounterStrike Root Panel"*/ )
+C_CSRootPanel::C_CSRootPanel( vgui::VPANEL parent, int slot, const char *panelName /*= "Rift Root Panel"*/ )
 	: BaseClass( NULL, panelName ), m_nSplitSlot( slot )
 {
 	SetParent( parent );

@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -42,7 +42,7 @@ public:
 
 //----------------------------------------------------------------------------------------------------------------
 /**
- * A Counter-Strike Hostage
+ * A Rift Hostage
  */
 class CHostage : public CAI_ExpresserHost< CHostageExpresserShim >, public CImprovLocomotor, public ICSPlayerAnimStateHelpers
 {

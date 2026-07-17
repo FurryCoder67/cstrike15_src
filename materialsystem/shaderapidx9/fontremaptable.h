@@ -61,7 +61,7 @@
 
 		{"consolas",				"platform/vgui/fonts/consola.ttf", false, true},
 #elif defined( CSTRIKE15 )
-		// COUNTER-STRIKE: SOURCE 1.5
+		// RIFT
 		{"verdana bold",			"csgo/resource/verdanab.ttf", false, false},
 		{"cs",						"csgo/resource/cs.ttf", false, false},
 		{"csd",						"csgo/resource/csd.ttf", false, false},

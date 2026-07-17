@@ -2207,7 +2207,7 @@ void PrintError( NvAPI_Status status, uint32 unStage, uint32 unProp, bool bPlus 
 #ifdef DEBUG
 	Msg( " NVAPI error: %s\n", szDesc );
 #endif
-	Error( "Failed to initialize NVidia driver!\nDriver error at 0x%08X%s%08X: %s\n\nPlease visit NVidia website to get the most recent version of the graphics drivers and restore your Counter-Strike: Global Offensive driver profile and global driver profile to NVidia defaults.",
+	Error( "Failed to initialize NVidia driver!\nDriver error at 0x%08X%s%08X: %s\n\nPlease visit NVidia website to get the most recent version of the graphics drivers and restore your Rift driver profile and global driver profile to NVidia defaults.",
 		unStage, ( bPlus ? "+" : "-" ), unProp,
 		szDesc );
 }

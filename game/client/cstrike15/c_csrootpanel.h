@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -29,7 +29,7 @@ class C_CSRootPanel : public vgui::Panel
 {
 	typedef vgui::Panel BaseClass;
 public:
-						C_CSRootPanel( vgui::VPANEL parent, int slot, const char *panelName = "CounterStrike Root Panel" );
+						C_CSRootPanel( vgui::VPANEL parent, int slot, const char *panelName = "Rift Root Panel" );
 	virtual				~C_CSRootPanel( void );
 
 	virtual void		PaintTraverse( bool Repaint, bool allowForce = true );

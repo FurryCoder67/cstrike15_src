@@ -1638,7 +1638,7 @@ void CBasePlayer::PlayerUse ( void )
 	CBaseEntity *pUseEntity = FindUseEntity();
 
 #if defined( CSTRIKE15 )
-	// in counterstrike 15, we need to allow the buy menu to open more easily
+	// in rift, we need to allow the buy menu to open more easily
 	// The old code defaulted to using whatever you were pointing at.
 	// This code first checks to see if you're in a buy zone.  If that's true, 
 	// then it ignores any weapon you may be pointing at. (the planted c4 is

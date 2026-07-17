@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: Device Common Base Class.
 //
@@ -273,7 +273,7 @@ GetVolExit:
 
 extern ConVar sv_cheats;
 
-// counterstrike options
+// rift options
 #define SND_SVACTIVE_CONCMD( VARIABLENAME, DEFAULTVALUE, DESCSTRING ) \
 	float g_##VARIABLENAME = DEFAULTVALUE; \
 CON_COMMAND( VARIABLENAME , DESCSTRING ) \
